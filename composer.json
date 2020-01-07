@@ -1,0 +1,29 @@
+{
+  "name": "moharram82/laravel-survey",
+  "description": "Laravel-Survey is a Laravel PHP web surveys package.",
+  "type": "library",
+  "keywords": ["moharram82", "laravel", "survey"],
+  "minimum-stability": "stable",
+  "homepage": "https://github.com/moharram82/laravel-survey/",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Mohammed Moharram",
+      "homepage": "https://moharram82.github.io/",
+      "email": "moharram82@hotmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Moharram82\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    }
+  }
+}
